@@ -1,0 +1,12 @@
+export const generateRandomBetween = (min, max, exclude) => {
+  if (min === max) {
+    return;
+  }
+  const rndNum = Math.floor(Math.random() * (max - min)) + min;
+
+  if (rndNum === exclude) {
+    return generateRandomBetween(min, max, exclude);
+  } else {
+    return rndNum;
+  }
+};
