@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Alert, FlatList, StyleSheet, Text, View } from "react-native";
+import { Alert, FlatList, StyleSheet, View } from "react-native";
 import { FontAwesome } from "@expo/vector-icons";
 
 import NumberContainer from "../components/game/NumberContainer";
